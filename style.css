@@ -1,0 +1,311 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(1_5lyavS59mazOFnb55Z6znQ.png);
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    position: relative;
+    border-bottom: 7px solid rgb(32, 32, 32);
+}
+nav{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    top: 0.0rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.img-logo{
+    height: 20%;
+    width: 20%;  
+}
+.two-div{
+    display: flex;
+}
+.language-box{
+    display: flex;
+    width: 7rem;
+    height: 2rem;
+    background-color: rgba(27, 27, 27, 0.61);
+    border: 1.5px solid white;
+    margin-right: 25px;
+    border-radius: 5px;
+    align-items: center;
+}
+.language{
+    font-weight: lighter;
+    font-size: 18px;
+    padding-top: 15px;
+}
+button{
+    background-color: rgb(199, 12, 12);
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+    width: 5.5rem ;
+}
+.heading{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    text-align: center;
+}
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.email-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email-signup-button{
+    width: 23rem;
+    height: 3.5rem;
+    margin-right: 8px;
+    background-color: rgba(27, 27, 27, 0.61);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.email-signup-button::placeholder{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight:lighter;
+}
+.submit-button{
+    justify-content: space-around;
+    width: 13rem;
+    height: 3.5rem;
+    font-size: 25px;
+    padding-bottom: 10px;
+    
+}
+.row-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    -webkit-box-align: center;
+    padding-top: 50px;
+    border-bottom: 7px solid rgb(32, 32, 32);
+    padding-bottom: 80px;
+}
+.text{
+    width: 30rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+.text h3{
+    font-size: 25px;
+}
+.text h1{
+    text-align: left;
+}
+.features-collection{
+    display: flex;
+    
+}
+.features-img-1{
+    width: 30rem;
+    height: 23rem;
+    position: relative;
+    overflow-inline:visible;
+    z-index: 10;
+}
+.features-video{
+    width: 22rem;
+    position: absolute;
+    padding-right: 30px;
+    margin-left: 65px;
+    padding-top: 4.9rem;
+}
+.row-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    border-bottom: 7px solid rgb(32, 32, 32);
+    padding-bottom: 80px;
+}
+.img-content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.strenger{
+    display: flex;
+    position: absolute;
+    width: 17rem;
+    height: 6.5rem;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15rem;
+}
+.strengers-item{
+    text-align: left;
+    align-items: center;
+}
+.strenger h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.strenger p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: blue;
+    text-align: start;
+}
+.row-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    -webkit-box-align: center;
+    padding-top: 50px;
+    border-bottom: 7px solid rgb(32, 32, 32);
+    padding-bottom: 80px;
+}
+.features-video-2{
+    position: absolute;
+    width: 19rem;
+    margin-left: 5rem;
+    padding-top: 20px;
+}
+.row-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    -webkit-box-align: center;
+    padding-top: 50px;
+    border-bottom: 7px solid rgb(32, 32, 32);
+    padding-bottom: 80px;
+}
+/* faq */
+.faq-section{
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 7px solid rgb(32, 32, 32);
+}
+.faq-section-p{
+    padding-left: 20rem;
+    padding-right: 10rem;
+    font-size: 23px;
+    padding-top: 2rem;
+}
+.faq-heading{
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.question-box{
+    margin-left: 10rem;
+    margin-right: 10rem; 
+}
+.question{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 8px;
+    background-color:  rgb(32, 32, 32) ;
+    font-weight: 600;
+    padding: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.question p{
+    font-weight: normal;
+}
+.question i{
+    font-size: 35px;
+    margin-right: 25px;
+    font-weight: 100;
+}
+.answer{
+    width: 100%;
+    display: none;
+    line-height: normal;
+    /* font-size: 0.9rem; */
+    margin-left: 1.4rem;
+    padding-right: 5rem;  
+}
+/* footer */
+.contant{
+    align-items: stretch;
+    justify-content: stretch;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 7px solid rgb(32, 32, 32);
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.contant h4{
+    font-size: 20px;
+    color: rgb(196, 187, 187) ;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    gap: 0.9rem;
+    align-items: stretch;
+}
+.footer-col a{
+    color: rgb(196, 187, 187);
+}
+.footer-text{
+    font-size: 15px;
+    padding-right: 3.5rem;
+    padding-right: 0;
+}
+.footer-language-box{
+    display: flex;
+    width: 7.5rem;
+    height: 2rem;
+    background-color: rgba(27, 27, 27, 0.61);
+    border: 1.5px solid white;
+    margin-right: 25px;
+    border-radius: 5px;
+    justify-content: center;
+    font-weight: lighter;
+}
+.footer-language-box p{
+    font-size: 20px;
+}
